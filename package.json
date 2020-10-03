@@ -1,0 +1,28 @@
+{
+  "name": "nice-swa-s",
+  "version": "1.0.0",
+  "description": "koa scaffolding template",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QCCS/nice-swa-s.git"
+  },
+  "author": "zhouli",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.1.4",
+    "koa2-file-upload": "^0.1.25",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.38.1",
+    "sequelize-cli": "^4.1.1"
+  }
+}

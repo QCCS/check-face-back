@@ -6,9 +6,10 @@ const router = new Router();
 router
   .get('/test_get', async function loginController(ctx) {
     console.log(ctx);
-    ctx.body = {
+    let res = {
       res: 'test_get'
-    };
+    }
+    ctx.body = res ;
   })
   .post('/test_post', async function login1Controller(ctx) {
     console.log(ctx);
